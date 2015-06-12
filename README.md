@@ -1,8 +1,8 @@
-### Style Test for Pottle and Sons Website
+# Style Test for Pottle and Sons Website
 
 By Tyler Pottle
 
-## Description
+### Description
 
 This project is a sandbox to experiment with styles for the upcoming Pottle and Sons website.  This project was built using the  [Middleman](https://middlemanapp.com/) framework for building static websites.
 
