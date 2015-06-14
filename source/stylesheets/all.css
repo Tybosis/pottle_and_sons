@@ -53,6 +53,29 @@ h1 {
   background-color: black;
 }
 
+.footer {
+  display: block;
+  height: 80px;
+  background-color: black;
+}
+
+.footer h3 {
+  color: white;
+  padding-right: 20px;
+  float: right;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #FF0000;
+}
+
+.accent-footer {
+  padding: 1px;
+  background-color: red;
+}
+
+
 /* ==================================================================
   SECTIONS
 ================================================================== */
