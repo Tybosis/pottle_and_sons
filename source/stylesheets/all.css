@@ -22,6 +22,7 @@
 .header {
   margin: 0px auto;
   background-color: white;
+  border-bottom: 2px solid black;
 }
 
 .header .text {
@@ -54,11 +55,6 @@
   color: #FF0000;
 }
 
-.accent {
-  padding: 1px;
-  background-color: black;
-}
-
 .header h1 {
   font-family: "Roboto Slab", serif;
   font-weight: 900;
@@ -80,6 +76,7 @@
   height: 80px;
   background-color: black;
   clear: both;
+  border-top: 2px solid red;
 }
 
 .footer h3 {
@@ -92,11 +89,6 @@
 .footer a {
   text-decoration: none;
   color: #FF0000;
-}
-
-.accent-footer {
-  padding: 1px;
-  background-color: red;
 }
 
 
@@ -194,6 +186,7 @@ iframe {
 .contact-info {
   background-color: red;
   height: 500px;
+  border-bottom: 2px solid black;
 }
 
 .banner-text {
