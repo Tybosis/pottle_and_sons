@@ -206,6 +206,7 @@ iframe {
   color: white;
   font-size: 80px;
   line-height: 1px;
+  font-family: 'Oswald', serif;
 }
 
 .banner-text ul {
@@ -221,6 +222,7 @@ iframe {
   font-size: 24px;
   display: inline-block;
   vertical-align: middle;
+  font-family: 'Oswald', serif;
 }
 
 .banner-contact-info {
@@ -252,10 +254,12 @@ iframe {
   line-height: 0px;
   font-size: 40px;
   margin-top: 20px;
+  font-family: 'Roboto Slab', serif;
 }
 
 .address-text p {
   color: gray;
+  font-family: 'Oswald', serif;
 }
 
 .hours {
@@ -264,10 +268,12 @@ iframe {
 
 .o_time {
   color: gray;
+  font-family: 'Oswald', serif;
 }
 
 .o_time span {
   display: inline-block;
   width: 180px;
   padding-bottom: 10px;
+  font-family: 'Oswald', serif;
 }
