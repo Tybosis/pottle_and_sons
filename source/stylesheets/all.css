@@ -7,6 +7,12 @@
   margin: 0 auto;
 }
 
+
+
+/* ==================================================================
+  HEADER
+================================================================== */
+
 .header-cont {
   width: 100%;
   position: fixed;
@@ -48,8 +54,12 @@
   color: #FF0000;
 }
 
+.accent {
+  padding: 1px;
+  background-color: black;
+}
 
-h1 {
+.header h1 {
   font-family: "Roboto Slab", serif;
   font-weight: 900;
   padding-bottom: 10px;
@@ -59,15 +69,17 @@ h1 {
   padding-top: 8px;
 }
 
-.accent {
-  padding: 1px;
-  background-color: black;
-}
+
+
+/* ==================================================================
+  FOOTER
+================================================================== */
 
 .footer {
   display: block;
   height: 80px;
   background-color: black;
+  clear: both;
 }
 
 .footer h3 {
@@ -86,6 +98,7 @@ h1 {
   padding: 1px;
   background-color: red;
 }
+
 
 
 /* ==================================================================
@@ -152,4 +165,109 @@ section.module.parallax-3 {
   section.module.parallax h1 {
     font-size: 160px;
   }
+}
+
+
+
+/* ==================================================================
+  CONTACT
+================================================================== */
+
+iframe {
+  display: block;
+}
+
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+  font-size: 48px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.material-icons.md-address {
+  color: red;
+  font-size: 48px;
+  text-decoration: none;
+}
+
+
+.contact-info {
+  background-color: red;
+  height: 500px;
+}
+
+.banner-text {
+  text-align: center;
+}
+
+.banner-text h1 {
+  padding-top: 180px;
+  padding-bottom: 0;
+  color: white;
+  font-size: 80px;
+  line-height: 1px;
+}
+
+.banner-text ul {
+  list-style: none;
+}
+
+.banner-text li {
+  display: inline-block;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.banner-contact-info {
+  padding-right: 40px;
+}
+
+#or {
+  padding: 0 20px 0 20px;
+  font-size: 18px;
+}
+
+.map {
+  display: inline-block;
+}
+
+.address-text {
+  display: inline-block;
+  padding-left: 50px;
+  width: 420px;
+  float: right;
+}
+
+.address-row {
+  display: block;
+  padding: 60px 0;
+}
+
+.address-text h3 {
+  line-height: 0px;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.address-text p {
+  color: gray;
+}
+
+.hours {
+  padding-top: 50px;
+}
+
+.o_time {
+  color: gray;
+}
+
+.o_time span {
+  display: inline-block;
+  width: 180px;
+  padding-bottom: 10px;
 }
