@@ -52,7 +52,11 @@
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
-  color: #FF0000;
+  color: black;
+}
+
+.header a:hover {
+  color: red;
 }
 
 .header h1 {
@@ -73,6 +77,10 @@
 .header .home-link a {
   color: black;
   text-decoration: none;
+}
+
+.header .home-link a:hover {
+  color: red;
 }
 
 
