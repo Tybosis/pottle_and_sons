@@ -7,6 +7,11 @@
   margin: 0 auto;
 }
 
+.container-big {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 
 
 /* ==================================================================
@@ -22,6 +27,7 @@
 .header {
   margin: 0px auto;
   background-color: white;
+  border-bottom: 2px solid black;
 }
 
 .header .text {
@@ -33,7 +39,7 @@
   display: inline-block;
   vertical-align: top;
   padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-bottom: 10px;
   height: 40px;
   width: 40px;
@@ -51,7 +57,7 @@
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
-  color: #FF0000;
+  color: black;
 }
 
 .header .nav a.current {
@@ -64,6 +70,10 @@
   background-color: black;
 }
 
+.header a:hover {
+  color: red;
+}
+
 .header h1 {
   font-family: "Roboto Slab", serif;
   font-weight: 900;
@@ -74,6 +84,19 @@
   padding-top: 8px;
 }
 
+.header .home-link {
+  display: inline-block;
+  width: 50%;
+}
+
+.header .home-link a {
+  color: black;
+  text-decoration: none;
+}
+
+.header .home-link a:hover {
+  color: red;
+}
 
 
 /* ==================================================================
@@ -83,25 +106,32 @@
 .footer {
   display: block;
   height: 80px;
-  background-color: black;
+  background-color: red;
   clear: both;
+  border-top: 2px solid black;
+  font-family: 'Roboto Slab', serif;
 }
 
 .footer h3 {
   color: white;
   padding-right: 20px;
   float: right;
-  padding-top: 6px;
+  padding-top: 2px;
+  line-height: 45px;
+  font-size: 16px;
 }
 
 .footer a {
   text-decoration: none;
-  color: #FF0000;
+  color: black;
 }
 
-.accent-footer {
-  padding: 1px;
-  background-color: red;
+.footer p {
+  float: left;
+  padding-left: 20px;
+  line-height: 45px;
+  color: white;
+  font-style: 'Roboto Slab', serif;
 }
 
 
@@ -199,6 +229,7 @@ iframe {
 .contact-info {
   background-color: red;
   height: 500px;
+  border-bottom: 2px solid black;
 }
 
 .banner-text {
@@ -206,11 +237,12 @@ iframe {
 }
 
 .banner-text h1 {
-  padding-top: 180px;
+  padding-top: 220px;
   padding-bottom: 0;
   color: white;
   font-size: 80px;
   line-height: 1px;
+  font-family: 'Oswald', serif;
 }
 
 .banner-text ul {
@@ -226,6 +258,7 @@ iframe {
   font-size: 24px;
   display: inline-block;
   vertical-align: middle;
+  font-family: 'Oswald', serif;
 }
 
 .banner-contact-info {
@@ -257,10 +290,12 @@ iframe {
   line-height: 0px;
   font-size: 40px;
   margin-top: 20px;
+  font-family: 'Roboto Slab', serif;
 }
 
 .address-text p {
   color: gray;
+  font-family: 'Oswald', serif;
 }
 
 .hours {
@@ -269,10 +304,159 @@ iframe {
 
 .o_time {
   color: gray;
+  font-family: 'Oswald', serif;
 }
 
 .o_time span {
   display: inline-block;
   width: 180px;
   padding-bottom: 10px;
+  font-family: 'Oswald', serif;
+}
+
+
+
+/* ==================================================================
+  ABOUT
+================================================================== */
+
+.about-jumbo {
+  background-image: url("../images/construction-site-jumbotron copy.jpg");
+  padding: 200px 0;
+  height: 150px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-bottom: 2px solid black;
+}
+
+.about-jumbo p {
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-family: 'Oswald', serif;
+  line-height: 0;
+  text-shadow: 2px 2px 10px black;
+}
+
+.about-jumbo #top {
+}
+
+.our-company {
+  display: block;
+  padding: 60px 0;
+  height: 400px;
+}
+
+#img-1 {
+  height: auto;
+  height: 400px;
+}
+
+.company-image {
+  display: inline-block;
+  width: 480px;
+  float: left;
+}
+
+.company-text {
+  display: inline-block;
+  width: 400px;
+  float: right;
+  padding-right: 100px;
+}
+
+.company-text h3 {
+  line-height: 0px;
+  font-size: 60px;
+  margin-top: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.company-text p {
+  font-size: 12px;
+  font-family: 'Noto Sans', serif;
+}
+
+.purpose-wrap {
+  width: 100%;
+  background-color: red;
+  border: 2px solid black;
+  border-style: solid none;
+}
+
+#img-2 {
+  width: auto;
+  height: 350px;
+}
+
+.purpose-image {
+  display: inline-block;
+  float: right;
+  padding-right: 60px;
+}
+
+.purpose-text {
+  display: inline-block;
+  width: 400px;
+  float: left;
+}
+
+.purpose-text h3 {
+  line-height: 0px;
+  font-size: 60px;
+  margin-top: 20px;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+
+.purpose-text p {
+  font-size: 12px;
+  font-family: 'Noto Sans', serif;
+  color: white;
+}
+
+#img-3 {
+  width: 480px;
+  height: auto;
+}
+
+.standards-text {
+  display: inline-block;
+  width: 450px;
+  float: right;
+  padding-right: 150px;
+}
+
+.standards-text h3 {
+  line-height: 0px;
+  font-size: 60px;
+  margin-top: 20px;
+  font-family: 'Roboto Slab', serif;
+  color: black;
+}
+
+.standards-list {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.standards-list li {
+  font-size: 24px;
+  font-family: 'Oswald', serif;
+  color: red;
+  padding-bottom: 5px;
+}
+
+.standards-list li:before {
+  content:"- ";
+}
+
+.standards-image {
+  display: inline-block;
+  float: left;
+}
+
+#purpose {
+  height: 480px;
 }
