@@ -54,6 +54,11 @@
   color: #FF0000;
 }
 
+.header .nav a.current {
+  color: white;
+  background-color: red;
+}
+
 .accent {
   padding: 1px;
   background-color: black;
