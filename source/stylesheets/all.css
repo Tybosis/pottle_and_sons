@@ -58,6 +58,16 @@
   padding: 10px;
   font-size: 20px;
   color: black;
+  padding-bottom: 15px;
+}
+
+.header .nav a.current {
+  border-bottom: 2px solid red;
+}
+
+.accent {
+  padding: 1px;
+  background-color: black;
 }
 
 .header a:hover {
