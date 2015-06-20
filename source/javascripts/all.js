@@ -1,5 +1,8 @@
 //= require_tree .
-
 $('document').ready(function() {
-  $("a[href*='" + location.pathname + "']").addClass("current");
+  $(".nav a").each(function() {
+    if($(this).attr('href') == location.pathname) {
+      $(this).addClass("current");
+    }
+  });
 });
