@@ -70,8 +70,9 @@
   background-color: black;
 }
 
-.header a:hover {
+.header .nav a:hover {
   color: red;
+  border-bottom: 2px solid red;
 }
 
 .header h1 {
@@ -459,4 +460,92 @@ iframe {
 
 #purpose {
   height: 480px;
+}
+
+
+
+/* ==================================================================
+  PEOPLE
+================================================================== */
+
+#first {
+  display: inline-block;
+  float: left;
+}
+
+#pic-left-first {
+  padding-top: 120px;
+}
+
+.pic-left {
+  display: block;
+  padding: 0 0 30px 0;
+  height: 300px;
+}
+
+.people-text-left {
+  display: inline-block;
+  float: left;
+  padding-left: 50px;
+  width: 70%;
+}
+
+.people-text-left h1 {
+  line-height: 0;
+  padding-bottom: 10px;
+}
+
+.people-text-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.people-text-left li {
+  display: block;
+}
+
+.people-text-left li p {
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+#second {
+  float: right;
+  display: inline-block;
+}
+
+.pic-right {
+  display: block;
+  height: 300px;
+  padding: 0 0 30px 0;
+}
+
+.people-text-right {
+  float: left;
+  display: inline-block;
+  width: 70%;
+  padding-right: 50px;
+}
+
+.people-text-right h1 {
+  line-height: 0;
+  padding-bottom: 10px;
+}
+
+.people-text-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.people-text-right li {
+  display: block;
+}
+
+.people-text-right li p {
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+  padding-left: 10px;
 }
