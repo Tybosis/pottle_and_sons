@@ -99,6 +99,24 @@
   color: red;
 }
 
+@media all and (max-width: 840px) {
+
+  .header .home-link {
+    width: 100%;
+  }
+
+  .header .nav {
+    display: none;
+  }
+}
+
+@media all and (max-width: 420px) {
+
+  .header h1 {
+    font-size: 20px;
+  }
+}
+
 
 /* ==================================================================
   FOOTER
@@ -117,7 +135,6 @@
   color: white;
   padding-right: 20px;
   float: right;
-  padding-top: 2px;
   line-height: 45px;
   font-size: 16px;
 }
@@ -132,9 +149,23 @@
   padding-left: 20px;
   line-height: 45px;
   color: white;
-  font-style: 'Roboto Slab', serif;
+  font-size: 16px;
 }
 
+@media all and (max-width: 660px) {
+
+  .footer h3 {
+    float: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer p {
+    float: none;
+    padding: 0;
+    text-align: center;
+  }
+}
 
 
 /* ==================================================================
