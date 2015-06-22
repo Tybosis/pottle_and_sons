@@ -186,33 +186,45 @@ section.module p {
 section.module p:last-child {
   margin-bottom: 20px;
 }
+
 section.module.content {
   padding: 40px 0;
+  border: 2px solid black;
+  border-style: solid none;
 }
+
+section.module.content:last-of-type {
+  border-bottom: none;
+}
+
 section.module.parallax {
-  padding: 200px 0;
-  height: 600px;
+  padding: 90px 0;
+  height: 380px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100%;
 }
+
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-family: "Roboto Slab", serif;
   font-size: 48px;
-  line-height: 600px;
   font-weight: 700;
   text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 section.module.parallax-1 {
   background-image: url("../images/building.jpeg");
 }
+
 section.module.parallax-2 {
   background-image: url("../images/glass.jpeg");
 }
+
 section.module.parallax-3 {
   background-image: url("../images/ny.jpeg");
 }
@@ -228,6 +240,7 @@ section.module.parallax-3 {
     font-size: 96px;
   }
 }
+
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
@@ -353,7 +366,6 @@ iframe {
 ================================================================== */
 
 .about-jumbo {
-  background-image: url("../images/construction-site-jumbotron copy.jpg");
   padding: 200px 0;
   height: 150px;
   background-position: 50% 50%;
@@ -371,7 +383,8 @@ iframe {
   text-shadow: 2px 2px 10px black;
 }
 
-.about-jumbo #top {
+.about-jumbo#about {
+  background-image: url("../images/construction-site-jumbotron copy.jpg");
 }
 
 .our-company {
@@ -592,6 +605,18 @@ iframe {
   height: 350px;
 }
 
+.about-jumbo#projects {
+  background-image: url("../images/blueprints.jpg");
+  background-size: 100%;
+}
+
+.about-jumbo#projects .title {
+  padding-top: 20px;
+  vertical-align: middle;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
 .box-holder {
   width: 33.3%;
   float: left;
@@ -610,4 +635,80 @@ iframe {
   font-size: 24px;
   font-family: 'Noto Sans', serif;
   line-height: 0;
+}
+
+
+
+/* ==================================================================
+  PROJECTS - CIVIL
+================================================================== */
+
+.gallery {
+  display: block;
+}
+
+.gallery-box {
+  display: inline-block;
+  height: 280px;
+  width: 280px;
+  margin: 10px;
+  float: left;
+  background-image: url("http://placehold.it/280x280");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.gallery-box h3 {
+  font-size: 40px;
+  line-height: 280px;
+  vertical-align: middle;
+  margin: 0;
+  visibility: hidden;
+  color: red;
+}
+
+.gallery-box:hover h3 {
+  visibility: visible;
+}
+
+.project-wrapper {
+  display: block;
+  padding: 50px 0;
+  margin: 0 auto;
+  height: 400px;
+}
+
+.project-description {
+  display: inline-block;
+  width: 520px;
+  float: left;
+  padding-left: 80px;
+}
+
+#civil-project-one-img {
+  display: inline-block;
+  float: left;
+}
+
+.project-description {
+  font-family: 'Roboto Slab', serif;
+  line-height: 0px;
+}
+
+.project-description p {
+  font-family: 'Oswald', serif;
+  line-height: 16px;
+}
+
+.project-description h6 {
+  font-size: 16px;
+  color: red;
+  line-height: 0;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.project-description h3 {
+  color: red;
+  font-size: 20px;
 }
