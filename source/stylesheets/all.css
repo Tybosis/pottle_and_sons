@@ -580,3 +580,34 @@ iframe {
   vertical-align: top;
   padding-left: 10px;
 }
+
+
+
+/* ==================================================================
+  PROJECTS
+================================================================== */
+
+.pic-container {
+  padding: 30px 0;
+  height: 350px;
+}
+
+.box-holder {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+}
+
+.title {
+  padding-top: 120px;
+  text-align: center;
+  font-size: 80px;
+  line-height: 0;
+  font-family: 'Oswald', serif;
+}
+
+.box-holder h3 {
+  font-size: 24px;
+  font-family: 'Noto Sans', serif;
+  line-height: 0;
+}
