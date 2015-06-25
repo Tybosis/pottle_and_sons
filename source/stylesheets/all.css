@@ -638,10 +638,20 @@ iframe {
   line-height: 0;
 }
 
+.pic-container .box-holder a {
+  text-decoration: none;
+  color: black;
+}
+
+.pic-container .box-holder a:hover {
+  color: red;
+  opacity: .4;
+}
+
 
 
 /* ==================================================================
-  PROJECTS - CIVIL
+  PROJECTS - SUB-PROJECT
 ================================================================== */
 
 .gallery {
@@ -712,6 +722,10 @@ iframe {
 .project-description h3 {
   color: red;
   font-size: 20px;
+}
+
+.gallery .gallery-box:hover {
+  opacity: .4;
 }
 
 
