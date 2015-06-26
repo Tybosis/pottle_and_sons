@@ -14,6 +14,11 @@
 
 $logo-red: #D82119;
 
+.content {
+  min-height: calc(100vh - 82px);
+  /* set the footer on bottom! */
+}
+
 /* ==================================================================
   HEADER
 ================================================================== */
@@ -369,6 +374,7 @@ iframe {
   background-repeat: no-repeat;
   background-attachment: fixed;
   border-bottom: 2px solid black;
+  background-size: 100% auto;
 }
 
 .about-jumbo p {
@@ -381,7 +387,7 @@ iframe {
 }
 
 .about-jumbo#about {
-  background-image: url("../images/construction-site-jumbotron copy.jpg");
+  background-image: url("../images/wild-horse-1.jpg");
 }
 
 .our-company {
@@ -642,8 +648,8 @@ iframe {
 }
 
 .about-jumbo#projects {
-  background-image: url("../images/blueprints.jpg");
-  background-size: 100%;
+  background-image: url("../images/wild-horse-2.jpg");
+  background-size: 100% auto;
 }
 
 .about-jumbo#projects .title {
@@ -726,7 +732,7 @@ iframe {
 
 .project-description {
   display: inline-block;
-  width: 520px;
+  width: 40%;
   float: left;
   padding-left: 80px;
 }
