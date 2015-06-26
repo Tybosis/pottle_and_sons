@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-
+$logo-red: #D82119;
 
 /* ==================================================================
   HEADER
@@ -29,75 +29,60 @@
   margin: 0px auto;
   background-color: white;
   border-bottom: 2px solid black;
-}
-
-.header .text {
-  display: inline-block;
-  vertical-align: bottom;
-}
-
-.header img {
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 10px;
-  height: 40px;
-  width: 40px;
-}
-
-.header .nav {
-  float: right;
-  vertical-align: top;
-  padding-right: 20px;
-  padding-top: 17px;
-  display: inline-block;
-}
-
-.header .nav a {
-  text-decoration: none;
-  padding: 10px;
-  font-size: 20px;
-  color: black;
-  padding-bottom: 15px;
-}
-
-.header .nav a.current {
-  border-bottom: 2px solid red;
-}
-
-.accent {
-  padding: 1px;
-  background-color: black;
-}
-
-.header .nav a:hover {
-  color: red;
-  border-bottom: 2px solid red;
-}
-
-.header h1 {
-  font-family: "Roboto Slab", serif;
-  font-weight: 900;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  font-size: 25px;
-  text-align: center;
-  padding-top: 8px;
-}
-
-.header .home-link {
-  display: inline-block;
-  width: 50%;
-}
-
-.header .home-link a {
-  color: black;
-  text-decoration: none;
-}
-
-.header .home-link a:hover {
-  color: red;
+  .text {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  img {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    height: 60px;
+    width: auto;
+  }
+  .nav {
+    float: right;
+    vertical-align: top;
+    padding-right: 20px;
+    padding-top: 17px;
+    display: inline-block;
+    a {
+      text-decoration: none;
+      padding: 10px;
+      font-size: 20px;
+      color: black;
+      padding-bottom: 15px;
+    }
+    a.current {
+      border-bottom: 2px solid $logo-red;
+    }
+    a:hover {
+      color: $logo-red;
+      border-bottom: 2px solid $logo-red;
+    }
+  }
+  h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .home-link {
+    display: inline-block;
+    width: 50%;
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $logo-red;
+    }
+  }
 }
 
 @media all and (max-width: 840px) {
@@ -126,45 +111,49 @@
 .footer {
   display: block;
   height: 80px;
-  background-color: red;
+  background-color: $logo-red;
   clear: both;
   border-top: 2px solid black;
   font-family: 'Roboto Slab', serif;
-}
-
-.footer h3 {
-  color: white;
-  padding-right: 20px;
-  float: right;
-  line-height: 45px;
-  font-size: 16px;
-}
-
-.footer a {
-  text-decoration: none;
-  color: black;
-}
-
-.footer p {
-  float: left;
-  padding-left: 20px;
-  line-height: 45px;
-  color: white;
-  font-size: 16px;
+  h3 {
+    color: white;
+    padding-right: 20px;
+    float: right;
+    line-height: 45px;
+    font-size: 16px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: white;
+  }
+  p {
+    float: left;
+    padding-left: 20px;
+    line-height: 45px;
+    color: white;
+    font-size: 16px;
+  }
 }
 
 @media all and (max-width: 660px) {
 
-  .footer h3 {
-    float: none;
-    padding: 0;
-    text-align: center;
-  }
-
-  .footer p {
-    float: none;
-    padding: 0;
-    text-align: center;
+  .footer {
+    h3 {
+      float: none;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+      line-height: 0;
+    }
+    p {
+      float: none;
+      padding: 10px 0;
+      text-align: center;
+      line-height: 0;
+    }
   }
 }
 
@@ -248,6 +237,13 @@ section.module.parallax-3 {
   }
 }
 
+@media all and (max-width: 480px) {
+  section.module.parallax {
+    height: 80px;
+    background-attachment: scroll;
+  }
+}
+
 
 
 /* ==================================================================
@@ -266,14 +262,14 @@ iframe {
 }
 
 .material-icons.md-address {
-  color: red;
+  color: $logo-red;
   font-size: 48px;
   text-decoration: none;
 }
 
 
 .contact-info {
-  background-color: red;
+  background-color: $logo-red;
   height: 500px;
   border-bottom: 2px solid black;
 }
@@ -426,7 +422,7 @@ iframe {
 
 .purpose-wrap {
   width: 100%;
-  background-color: red;
+  background-color: $logo-red;
   border: 2px solid black;
   border-style: solid none;
 }
@@ -490,7 +486,7 @@ iframe {
 .standards-list li {
   font-size: 24px;
   font-family: 'Oswald', serif;
-  color: red;
+  color: $logo-red;
   padding-bottom: 5px;
 }
 
@@ -644,7 +640,7 @@ iframe {
 }
 
 .pic-container .box-holder a:hover {
-  color: red;
+  color: $logo-red;
   opacity: .4;
 }
 
@@ -675,7 +671,7 @@ iframe {
   vertical-align: middle;
   margin: 0;
   visibility: hidden;
-  color: red;
+  color: $logo-red;
 }
 
 .gallery-box:hover h3 {
@@ -713,14 +709,14 @@ iframe {
 
 .project-description h6 {
   font-size: 16px;
-  color: red;
+  color: $logo-red;
   line-height: 0;
   margin: 0;
   padding: 10px 0;
 }
 
 .project-description h3 {
-  color: red;
+  color: $logo-red;
   font-size: 20px;
 }
 
