@@ -111,7 +111,7 @@ $logo-red: #D82119;
 .footer {
   display: block;
   height: 80px;
-  background-color: red;
+  background-color: $logo-red;
   clear: both;
   border-top: 2px solid black;
   font-family: 'Roboto Slab', serif;
@@ -140,16 +140,20 @@ $logo-red: #D82119;
 
 @media all and (max-width: 660px) {
 
-  .footer h3 {
-    float: none;
-    padding: 0;
-    text-align: center;
-  }
-
-  .footer p {
-    float: none;
-    padding: 0;
-    text-align: center;
+  .footer {
+    h3 {
+      float: none;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+      line-height: 0;
+    }
+    p {
+      float: none;
+      padding: 10px 0;
+      text-align: center;
+      line-height: 0;
+    }
   }
 }
 
@@ -233,6 +237,13 @@ section.module.parallax-3 {
   }
 }
 
+@media all and (max-width: 480px) {
+  section.module.parallax {
+    height: 80px;
+    background-attachment: scroll;
+  }
+}
+
 
 
 /* ==================================================================
@@ -251,14 +262,14 @@ iframe {
 }
 
 .material-icons.md-address {
-  color: red;
+  color: $logo-red;
   font-size: 48px;
   text-decoration: none;
 }
 
 
 .contact-info {
-  background-color: red;
+  background-color: $logo-red;
   height: 500px;
   border-bottom: 2px solid black;
 }
@@ -411,7 +422,7 @@ iframe {
 
 .purpose-wrap {
   width: 100%;
-  background-color: red;
+  background-color: $logo-red;
   border: 2px solid black;
   border-style: solid none;
 }
@@ -475,7 +486,7 @@ iframe {
 .standards-list li {
   font-size: 24px;
   font-family: 'Oswald', serif;
-  color: red;
+  color: $logo-red;
   padding-bottom: 5px;
 }
 
@@ -629,7 +640,7 @@ iframe {
 }
 
 .pic-container .box-holder a:hover {
-  color: red;
+  color: $logo-red;
   opacity: .4;
 }
 
@@ -660,7 +671,7 @@ iframe {
   vertical-align: middle;
   margin: 0;
   visibility: hidden;
-  color: red;
+  color: $logo-red;
 }
 
 .gallery-box:hover h3 {
@@ -698,14 +709,14 @@ iframe {
 
 .project-description h6 {
   font-size: 16px;
-  color: red;
+  color: $logo-red;
   line-height: 0;
   margin: 0;
   padding: 10px 0;
 }
 
 .project-description h3 {
-  color: red;
+  color: $logo-red;
   font-size: 20px;
 }
 
