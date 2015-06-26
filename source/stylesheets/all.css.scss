@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-
+$logo-red: #D82119;
 
 /* ==================================================================
   HEADER
@@ -39,8 +39,8 @@
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 10px;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: auto;
   }
   .nav {
     float: right;
@@ -56,11 +56,11 @@
       padding-bottom: 15px;
     }
     a.current {
-      border-bottom: 2px solid red;
+      border-bottom: 2px solid $logo-red;
     }
     a:hover {
-      color: red;
-      border-bottom: 2px solid red;
+      color: $logo-red;
+      border-bottom: 2px solid $logo-red;
     }
   }
   h1 {
@@ -80,7 +80,7 @@
       text-decoration: none;
     }
     a:hover {
-      color: red;
+      color: $logo-red;
     }
   }
 }
