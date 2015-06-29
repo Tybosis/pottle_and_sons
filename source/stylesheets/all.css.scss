@@ -440,14 +440,14 @@ iframe {
 
 .purpose-image {
   display: inline-block;
-  float: right;
-  padding-right: 60px;
+  float: left;
 }
 
 .purpose-text {
   display: inline-block;
   width: 400px;
   float: left;
+  padding-right: 80px;
 }
 
 .purpose-text h3 {
@@ -467,18 +467,18 @@ iframe {
 #img-3 {
   width: 480px;
   height: auto;
+  padding-right: 80px;
 }
 
 .standards-text {
   display: inline-block;
-  width: 450px;
-  float: right;
-  padding-right: 150px;
+  width: 400px;
+  float: left;
 }
 
 .standards-text h3 {
   line-height: 0px;
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 20px;
   font-family: 'Roboto Slab', serif;
   color: black;
@@ -503,6 +503,10 @@ iframe {
 .standards-image {
   display: inline-block;
   float: left;
+}
+
+.standards-wrap {
+  height: 520px;
 }
 
 #purpose {
