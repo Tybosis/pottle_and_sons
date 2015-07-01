@@ -574,11 +574,13 @@ iframe {
   float: left;
   padding-left: 50px;
   width: 70%;
+  font-family: 'Noro Sans', serif;
 }
 
 .people-text-left h1 {
   line-height: 0;
   padding-bottom: 10px;
+  font-family: "Roboto Slab", serif;
 }
 
 .people-text-left ul {
@@ -613,11 +615,13 @@ iframe {
   display: inline-block;
   width: 70%;
   padding-right: 50px;
+  font-family: 'Noro Sans', serif;
 }
 
 .people-text-right h1 {
   line-height: 0;
   padding-bottom: 10px;
+  font-family: "Roboto Slab", serif;
 }
 
 .people-text-right ul {
@@ -681,7 +685,7 @@ iframe {
 
 .pic-container {
   padding: 30px 0;
-  height: 350px;
+  height: 300px;
 }
 
 .about-jumbo#projects {
@@ -700,6 +704,11 @@ iframe {
   width: 33.3%;
   float: left;
   text-align: center;
+}
+
+.box-holder img {
+  width: 92%;
+  height: auto;
 }
 
 .title {
@@ -734,6 +743,8 @@ iframe {
 
 .gallery {
   display: block;
+  padding-top: 50px;
+  height: 650px;
 }
 
 .gallery-box {
@@ -742,9 +753,9 @@ iframe {
   width: 280px;
   margin: 10px;
   float: left;
-  background-image: url("http://placehold.it/280x280");
   background-repeat: no-repeat;
   text-align: center;
+  background-size: 280px 280px;
 }
 
 .gallery-box h3 {
@@ -809,8 +820,123 @@ iframe {
 
 
 /* ==================================================================
+  GALLERY IMAGES - COMMERCIAL
+================================================================== */
+
+.commercial-1 {
+  background-image: url("http://static.pexels.com/photos/1126/city-cars-traffic-eiffel-tower-large.jpg");
+}
+
+.commercial-2 {
+  background-image: url("http://static.pexels.com/photos/464/sky-clouds-cloudy-building-large.jpg");
+}
+
+.commercial-3 {
+  background-image: url("http://static.pexels.com/photos/1070/city-building-fire-escape-fire-ladder-large.jpg");
+}
+
+.commercial-4 {
+  background-image: url("http://static.pexels.com/photos/6639/building-historical-columns-large.jpg");
+}
+
+.commercial-5 {
+  background-image: url("http://static.pexels.com/photos/814/building-house-high-rise-hdr-large.jpg");
+}
+
+.commercial-6 {
+  background-image: url("http://static.pexels.com/photos/389/black-and-white-night-building-house-large.jpg");
+}
+
+.commercial-7 {
+  background-image: url("https://static.pexels.com/photos/6517/parking-multi-storey-car-park-large.jpg");
+}
+
+.commercial-8 {
+  background-image: url("https://static.pexels.com/photos/2747/restaurant-street-bricks-house-large.jpg");
+}
+
+
+
+/* ==================================================================
+  GALLERY IMAGES - CIVIL
+================================================================== */
+
+.civil-1 {
+  background-image: url("https://static.pexels.com/photos/2469/building-construction-building-site-constructing-large.jpg");
+}
+
+.civil-2 {
+  background-image: url("https://static.pexels.com/photos/2489/street-building-construction-industry-large.jpg");
+}
+
+.civil-3 {
+  background-image: url("https://static.pexels.com/photos/4510/construction-tractor-excavator-site-large.jpg");
+}
+
+.civil-4 {
+  background-image: url("https://static.pexels.com/photos/3527/rubble-street-construction-large.jpg");
+}
+
+.civil-5 {
+  background-image: url("https://static.pexels.com/photos/5153/construction-industry-crane-leaves-large.jpg");
+}
+
+.civil-6 {
+  background-image: url("https://static.pexels.com/photos/3828/sky-ditch-eye-hole-medium.jpg");
+}
+
+.civil-7 {
+  background-image: url("https://static.pexels.com/photos/818/sea-sunny-beach-holiday-large.jpg");
+}
+
+.civil-8 {
+  background-image: url("https://static.pexels.com/photos/5159/road-mountains-street-curve-large.jpg");
+}
+
+
+
+/* ==================================================================
+  GALLERY IMAGES - POWER
+================================================================== */
+
+.power-1 {
+  background-image: url("https://static.pexels.com/photos/1832/black-and-white-sky-construction-bridge-large.jpg");
+}
+
+.power-2 {
+  background-image: url("https://static.pexels.com/photos/2391/dirty-industry-stack-factory-large.jpg");
+}
+
+.power-3 {
+  background-image: url("https://static.pexels.com/photos/917/dawn-twilight-dusk-electricity-large.jpg");
+}
+
+.power-4 {
+  background-image: url("https://static.pexels.com/photos/1873/black-and-white-rails-station-railroad-large.jpg");
+}
+
+.power-5 {
+  background-image: url("https://static.pexels.com/photos/1873/black-and-white-rails-station-railroad-large.jpg");
+}
+
+.power-6 {
+  background-image: url("https://static.pexels.com/photos/2308/hands-night-festival-new-year-s-eve-large.jpg");
+}
+
+.power-7 {
+  background-image: url("https://static.pexels.com/photos/327/light-sky-lights-night-large.jpg");
+}
+
+.power-8 {
+  background-image: url("https://static.pexels.com/photos/134/light-creative-abstract-colorful-large.jpg");
+}
+
+
+
+/* ==================================================================
   SLIDESHOW
 ================================================================== */
+
 .bss-slides{
   background: #000;
   position: relative;
