@@ -288,10 +288,13 @@ iframe {
     font-size: 80px;
     line-height: 1px;
     font-family: 'Oswald', serif;
+  }
   ul {
     list-style: none;
+  }
   li {
     display: inline-block;
+  }
   p {
     color: white;
     font-size: 24px;
@@ -505,6 +508,7 @@ iframe {
   a {
     vertical-align: top;
     zoom: 1;
+  }
   img {
     height: 100px;
     width: auto;
@@ -659,7 +663,7 @@ iframe {
 .pic-container {
   padding: 30px 0;
   height: 300px;
-  .box-holder
+  .box-holder {
     a {
       text-decoration: none;
       color: black;
