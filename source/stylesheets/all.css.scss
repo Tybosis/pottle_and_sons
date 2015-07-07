@@ -281,31 +281,24 @@ iframe {
 
 .banner-text {
   text-align: center;
-}
-
-.banner-text h1 {
-  padding-top: 220px;
-  padding-bottom: 0;
-  color: white;
-  font-size: 80px;
-  line-height: 1px;
-  font-family: 'Oswald', serif;
-}
-
-.banner-text ul {
-  list-style: none;
-}
-
-.banner-text li {
-  display: inline-block;
-}
-
-.banner-text p {
-  color: white;
-  font-size: 24px;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: 'Oswald', serif;
+  h1 {
+    padding-top: 220px;
+    padding-bottom: 0;
+    color: white;
+    font-size: 80px;
+    line-height: 1px;
+    font-family: 'Oswald', serif;
+  ul {
+    list-style: none;
+  li {
+    display: inline-block;
+  p {
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Oswald', serif;
+  }
 }
 
 .banner-contact-info {
@@ -326,23 +319,21 @@ iframe {
   padding-left: 50px;
   width: 420px;
   float: right;
+  h3 {
+    line-height: 0px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+  }
 }
 
 .address-row {
   display: block;
   padding: 60px 0;
-}
-
-.address-text h3 {
-  line-height: 0px;
-  font-size: 40px;
-  margin-top: 20px;
-  font-family: 'Roboto Slab', serif;
-}
-
-.address-text p {
-  color: gray;
-  font-family: 'Oswald', serif;
+  p {
+    color: gray;
+    font-family: 'Oswald', serif;
+  }
 }
 
 .hours {
@@ -352,13 +343,12 @@ iframe {
 .o_time {
   color: gray;
   font-family: 'Oswald', serif;
-}
-
-.o_time span {
-  display: inline-block;
-  width: 180px;
-  padding-bottom: 10px;
-  font-family: 'Oswald', serif;
+  span {
+    display: inline-block;
+    width: 180px;
+    padding-bottom: 10px;
+    font-family: 'Oswald', serif;
+  }
 }
 
 
