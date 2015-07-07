@@ -1,3 +1,7 @@
+@import 'normalize';
+@import 'lightgallery';
+@import 'lightslider';
+
 /* ==================================================================
   PRIMARY STRUCTURE
 ================================================================== */
@@ -1045,4 +1049,15 @@ iframe {
     background: rgba(0,0,0,.4) url(http://leemark.github.io/better-simple-slideshow/img/compress_ffffff_64.png);
     -webkit-background-size: contain;
     background-size: contain;
+}
+
+
+
+/* ==================================================================
+  LightGallery
+================================================================== */
+
+.produk-details-left {
+  width: 600px;
+  float: left;
 }
