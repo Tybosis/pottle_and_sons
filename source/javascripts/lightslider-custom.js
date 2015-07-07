@@ -7,6 +7,13 @@ $(document).ready(function() {
     speed:500,
     auto:true,
     loop:true,
-    autoWidth: false
+    autoWidth: false,
+    enableDrag: false,
+    onSliderLoad: function(el) {
+      el.lightGallery({
+        selector: '#lightSlider .lslide',
+        loop: true
+      });
+    }
   });
 });
