@@ -686,29 +686,42 @@ iframe {
 .pic-container {
   padding: 30px 0;
   height: 300px;
+  .box-holder
+    a {
+      text-decoration: none;
+      color: black;
+      :hover {
+        color: $logo-red;
+        opacity: .4;
+      }
+    }
+  }
 }
 
 .about-jumbo#projects {
   background-image: url("../images/wild-horse-2.jpg");
   background-size: 100% auto;
-}
-
-.about-jumbo#projects .title {
-  padding-top: 20px;
-  vertical-align: middle;
-  color: white;
-  text-shadow: 2px 2px 10px black;
+  .title {
+    padding-top: 20px;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+  }
 }
 
 .box-holder {
   width: 33.3%;
   float: left;
   text-align: center;
-}
-
-.box-holder img {
-  width: 92%;
-  height: auto;
+  img {
+    width: 92%;
+    height: auto;
+  }
+  h3 {
+    font-size: 24px;
+    font-family: 'Noto Sans', serif;
+    line-height: 0;
+  }
 }
 
 .title {
@@ -717,22 +730,6 @@ iframe {
   font-size: 80px;
   line-height: 0;
   font-family: 'Oswald', serif;
-}
-
-.box-holder h3 {
-  font-size: 24px;
-  font-family: 'Noto Sans', serif;
-  line-height: 0;
-}
-
-.pic-container .box-holder a {
-  text-decoration: none;
-  color: black;
-}
-
-.pic-container .box-holder a:hover {
-  color: $logo-red;
-  opacity: .4;
 }
 
 
