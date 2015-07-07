@@ -281,31 +281,27 @@ iframe {
 
 .banner-text {
   text-align: center;
-}
-
-.banner-text h1 {
-  padding-top: 220px;
-  padding-bottom: 0;
-  color: white;
-  font-size: 80px;
-  line-height: 1px;
-  font-family: 'Oswald', serif;
-}
-
-.banner-text ul {
-  list-style: none;
-}
-
-.banner-text li {
-  display: inline-block;
-}
-
-.banner-text p {
-  color: white;
-  font-size: 24px;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: 'Oswald', serif;
+  h1 {
+    padding-top: 220px;
+    padding-bottom: 0;
+    color: white;
+    font-size: 80px;
+    line-height: 1px;
+    font-family: 'Oswald', serif;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  p {
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Oswald', serif;
+  }
 }
 
 .banner-contact-info {
@@ -326,23 +322,21 @@ iframe {
   padding-left: 50px;
   width: 420px;
   float: right;
+  h3 {
+    line-height: 0px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+  }
 }
 
 .address-row {
   display: block;
   padding: 60px 0;
-}
-
-.address-text h3 {
-  line-height: 0px;
-  font-size: 40px;
-  margin-top: 20px;
-  font-family: 'Roboto Slab', serif;
-}
-
-.address-text p {
-  color: gray;
-  font-family: 'Oswald', serif;
+  p {
+    color: gray;
+    font-family: 'Oswald', serif;
+  }
 }
 
 .hours {
@@ -352,13 +346,12 @@ iframe {
 .o_time {
   color: gray;
   font-family: 'Oswald', serif;
-}
-
-.o_time span {
-  display: inline-block;
-  width: 180px;
-  padding-bottom: 10px;
-  font-family: 'Oswald', serif;
+  span {
+    display: inline-block;
+    width: 180px;
+    padding-bottom: 10px;
+    font-family: 'Oswald', serif;
+  }
 }
 
 
@@ -375,15 +368,14 @@ iframe {
   background-attachment: fixed;
   border-bottom: 2px solid black;
   background-size: 100% auto;
-}
-
-.about-jumbo p {
-  text-align: center;
-  font-size: 80px;
-  color: white;
-  font-family: 'Oswald', serif;
-  line-height: 0;
-  text-shadow: 2px 2px 10px black;
+  p {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Oswald', serif;
+    line-height: 0;
+    text-shadow: 2px 2px 10px black;
+  }
 }
 
 .about-jumbo#about {
@@ -412,18 +404,16 @@ iframe {
   width: 400px;
   float: right;
   padding-right: 100px;
-}
-
-.company-text h3 {
-  line-height: 0px;
-  font-size: 60px;
-  margin-top: 20px;
-  font-family: 'Roboto Slab', serif;
-}
-
-.company-text p {
-  font-size: 12px;
-  font-family: 'Noto Sans', serif;
+  h3 {
+    line-height: 0px;
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+  }
+  p {
+    font-size: 12px;
+    font-family: 'Noto Sans', serif;
+  }
 }
 
 .purpose-wrap {
@@ -448,20 +438,18 @@ iframe {
   width: 400px;
   float: left;
   padding-right: 80px;
-}
-
-.purpose-text h3 {
-  line-height: 0px;
-  font-size: 60px;
-  margin-top: 20px;
-  font-family: 'Roboto Slab', serif;
-  color: white;
-}
-
-.purpose-text p {
-  font-size: 12px;
-  font-family: 'Noto Sans', serif;
-  color: white;
+  h3 {
+    line-height: 0px;
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+  }
+  p {
+    font-size: 12px;
+    font-family: 'Noto Sans', serif;
+    color: white;
+  }
 }
 
 #img-3 {
@@ -474,30 +462,27 @@ iframe {
   display: inline-block;
   width: 400px;
   float: left;
-}
-
-.standards-text h3 {
-  line-height: 0px;
-  font-size: 50px;
-  margin-top: 20px;
-  font-family: 'Roboto Slab', serif;
-  color: black;
+  h3 {
+    line-height: 0px;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+  }
 }
 
 .standards-list {
   padding-left: 20px;
   list-style: none;
-}
-
-.standards-list li {
-  font-size: 24px;
-  font-family: 'Oswald', serif;
-  color: $logo-red;
-  padding-bottom: 5px;
-}
-
-.standards-list li:before {
-  content:"- ";
+  li {
+    font-size: 24px;
+    font-family: 'Oswald', serif;
+    color: $logo-red;
+    padding-bottom: 5px;
+    :before {
+      content:"- ";
+    }
+  }
 }
 
 .standards-image {
@@ -520,17 +505,17 @@ iframe {
    text-align: justify;
   -ms-text-justify: distribute-all-lines;
   text-justify: distribute-all-lines;
+  a {
+    vertical-align: top;
+    zoom: 1;
+  }
+  img {
+    height: 100px;
+    width: auto;
+  }
 }
 
-#thumbs a {
-  vertical-align: top;
-  zoom: 1;
-}
-
-#thumbs img {
-  height: 100px;
-  width: auto;
-}
+#thumbs
 
 .stretch {
   width: 100%;
@@ -575,28 +560,24 @@ iframe {
   padding-left: 50px;
   width: 70%;
   font-family: 'Noro Sans', serif;
-}
-
-.people-text-left h1 {
-  line-height: 0;
-  padding-bottom: 10px;
-  font-family: "Roboto Slab", serif;
-}
-
-.people-text-left ul {
-  list-style: none;
-  padding: 0;
-}
-
-.people-text-left li {
-  display: block;
-}
-
-.people-text-left li p {
-  display: inline-block;
-  height: 100%;
-  vertical-align: top;
-  padding-left: 10px;
+  h1 {
+    line-height: 0;
+    padding-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    display: block;
+    p {
+      display: inline-block;
+      height: 100%;
+      vertical-align: top;
+      padding-left: 10px;
+    }
+  }
 }
 
 #second {
@@ -616,28 +597,24 @@ iframe {
   width: 70%;
   padding-right: 50px;
   font-family: 'Noro Sans', serif;
-}
-
-.people-text-right h1 {
-  line-height: 0;
-  padding-bottom: 10px;
-  font-family: "Roboto Slab", serif;
-}
-
-.people-text-right ul {
-  list-style: none;
-  padding: 0;
-}
-
-.people-text-right li {
-  display: block;
-}
-
-.people-text-right li p {
-  display: inline-block;
-  height: 100%;
-  vertical-align: top;
-  padding-left: 10px;
+  h1 {
+    line-height: 0;
+    padding-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    display: block;
+    p {
+      display: inline-block;
+      height: 100%;
+      vertical-align: top;
+      padding-left: 10px;
+    }
+  }
 }
 
 @media all and (max-width: 600px) {
@@ -686,29 +663,42 @@ iframe {
 .pic-container {
   padding: 30px 0;
   height: 300px;
+  .box-holder {
+    a {
+      text-decoration: none;
+      color: black;
+      :hover {
+        color: $logo-red;
+        opacity: .4;
+      }
+    }
+  }
 }
 
 .about-jumbo#projects {
   background-image: url("../images/wild-horse-2.jpg");
   background-size: 100% auto;
-}
-
-.about-jumbo#projects .title {
-  padding-top: 20px;
-  vertical-align: middle;
-  color: white;
-  text-shadow: 2px 2px 10px black;
+  .title {
+    padding-top: 20px;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+  }
 }
 
 .box-holder {
   width: 33.3%;
   float: left;
   text-align: center;
-}
-
-.box-holder img {
-  width: 92%;
-  height: auto;
+  img {
+    width: 92%;
+    height: auto;
+  }
+  h3 {
+    font-size: 24px;
+    font-family: 'Noto Sans', serif;
+    line-height: 0;
+  }
 }
 
 .title {
@@ -717,22 +707,6 @@ iframe {
   font-size: 80px;
   line-height: 0;
   font-family: 'Oswald', serif;
-}
-
-.box-holder h3 {
-  font-size: 24px;
-  font-family: 'Noto Sans', serif;
-  line-height: 0;
-}
-
-.pic-container .box-holder a {
-  text-decoration: none;
-  color: black;
-}
-
-.pic-container .box-holder a:hover {
-  color: $logo-red;
-  opacity: .4;
 }
 
 
@@ -745,6 +719,9 @@ iframe {
   display: block;
   padding-top: 50px;
   height: 650px;
+  .gallery-box:hover {
+    opacity: .4;
+  }
 }
 
 .gallery-box {
@@ -756,19 +733,19 @@ iframe {
   background-repeat: no-repeat;
   text-align: center;
   background-size: 280px 280px;
-}
-
-.gallery-box h3 {
-  font-size: 40px;
-  line-height: 280px;
-  vertical-align: middle;
-  margin: 0;
-  visibility: hidden;
-  color: $logo-red;
-}
-
-.gallery-box:hover h3 {
-  visibility: visible;
+  h3 {
+    font-size: 40px;
+    line-height: 280px;
+    vertical-align: middle;
+    margin: 0;
+    visibility: hidden;
+    color: $logo-red;
+  }
+  :hover {
+    h3 {
+      visibility: visible;
+    }
+  }
 }
 
 .project-wrapper {
@@ -776,13 +753,6 @@ iframe {
   padding: 50px 0;
   margin: 0 auto;
   height: 400px;
-}
-
-.project-description {
-  display: inline-block;
-  width: 40%;
-  float: left;
-  padding-left: 80px;
 }
 
 #civil-project-one-img {
@@ -793,28 +763,25 @@ iframe {
 .project-description {
   font-family: 'Roboto Slab', serif;
   line-height: 0px;
-}
-
-.project-description p {
-  font-family: 'Oswald', serif;
-  line-height: 16px;
-}
-
-.project-description h6 {
-  font-size: 16px;
-  color: $logo-red;
-  line-height: 0;
-  margin: 0;
-  padding: 10px 0;
-}
-
-.project-description h3 {
-  color: $logo-red;
-  font-size: 20px;
-}
-
-.gallery .gallery-box:hover {
-  opacity: .4;
+  display: inline-block;
+  width: 40%;
+  float: left;
+  padding-left: 80px;
+  p {
+    font-family: 'Oswald', serif;
+    line-height: 16px;
+  }
+  h6 {
+    font-size: 16px;
+    color: $logo-red;
+    line-height: 0;
+    margin: 0;
+    padding: 10px 0;
+  }
+  h3 {
+    color: $logo-red;
+    font-size: 20px;
+  }
 }
 
 
