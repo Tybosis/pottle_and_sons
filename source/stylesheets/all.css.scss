@@ -745,6 +745,9 @@ iframe {
   display: block;
   padding-top: 50px;
   height: 650px;
+  .gallery-box:hover {
+    opacity: .4;
+  }
 }
 
 .gallery-box {
@@ -756,19 +759,19 @@ iframe {
   background-repeat: no-repeat;
   text-align: center;
   background-size: 280px 280px;
-}
-
-.gallery-box h3 {
-  font-size: 40px;
-  line-height: 280px;
-  vertical-align: middle;
-  margin: 0;
-  visibility: hidden;
-  color: $logo-red;
-}
-
-.gallery-box:hover h3 {
-  visibility: visible;
+  h3 {
+    font-size: 40px;
+    line-height: 280px;
+    vertical-align: middle;
+    margin: 0;
+    visibility: hidden;
+    color: $logo-red;
+  }
+  :hover {
+    h3 {
+      visibility: visible;
+    }
+  }
 }
 
 .project-wrapper {
@@ -776,13 +779,6 @@ iframe {
   padding: 50px 0;
   margin: 0 auto;
   height: 400px;
-}
-
-.project-description {
-  display: inline-block;
-  width: 40%;
-  float: left;
-  padding-left: 80px;
 }
 
 #civil-project-one-img {
@@ -793,28 +789,25 @@ iframe {
 .project-description {
   font-family: 'Roboto Slab', serif;
   line-height: 0px;
-}
-
-.project-description p {
-  font-family: 'Oswald', serif;
-  line-height: 16px;
-}
-
-.project-description h6 {
-  font-size: 16px;
-  color: $logo-red;
-  line-height: 0;
-  margin: 0;
-  padding: 10px 0;
-}
-
-.project-description h3 {
-  color: $logo-red;
-  font-size: 20px;
-}
-
-.gallery .gallery-box:hover {
-  opacity: .4;
+  display: inline-block;
+  width: 40%;
+  float: left;
+  padding-left: 80px;
+  p {
+    font-family: 'Oswald', serif;
+    line-height: 16px;
+  }
+  h6 {
+    font-size: 16px;
+    color: $logo-red;
+    line-height: 0;
+    margin: 0;
+    padding: 10px 0;
+  }
+  h3 {
+    color: $logo-red;
+    font-size: 20px;
+  }
 }
 
 
