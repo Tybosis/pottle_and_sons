@@ -1083,3 +1083,8 @@ iframe {
   width: 600px;
   float: left;
 }
+
+// custom height of thumbnail gallery images
+.lSSlideOuter .lSPager.lSGallery img {
+  height: 50px;
+}
