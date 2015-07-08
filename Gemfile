@@ -16,3 +16,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem 'rack-contrib'
 gem 'puma'
 gem 'middleman-dotenv', '~> 1.0'
+
+gem 'cloudinary'
