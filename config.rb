@@ -5,6 +5,7 @@ activate :dotenv
 ###
 # Compass
 ###
+#
 
 # Change Compass configuration
 # compass_config do |config|
