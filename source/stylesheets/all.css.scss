@@ -217,15 +217,15 @@ section.module.parallax h1 {
 }
 
 section.module.parallax-1 {
-  background-image: url("../images/building.jpeg");
+  background-image: url("../images/jumbotrons/index-jumbo-1.jpeg");
 }
 
 section.module.parallax-2 {
-  background-image: url("../images/glass.jpeg");
+  background-image: url("../images/jumbotrons/index-jumbo-2.jpeg");
 }
 
 section.module.parallax-3 {
-  background-image: url("../images/ny.jpeg");
+  background-image: url("../images/jumbotrons/index-jumbo-3.jpeg");
 }
 
 @media all and (min-width: 600px) {
@@ -383,7 +383,7 @@ iframe {
 }
 
 .about-jumbo#about {
-  background-image: url("../images/wild-horse-1.jpg");
+  background-image: url("../images/jumbotrons/about-jumbo.jpg");
 }
 
 .our-company {
@@ -704,7 +704,7 @@ iframe {
 }
 
 .about-jumbo#projects {
-  background-image: url("../images/wild-horse-2.jpg");
+  background-image: url("../images/jumbotrons/projects-jumbo.jpg");
   background-size: 100% auto;
   .title {
     padding-top: 20px;
