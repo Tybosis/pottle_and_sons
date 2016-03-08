@@ -94,24 +94,6 @@ $logo-red: #D82119;
   }
 }
 
-@media all and (max-width: 840px) {
-
-  .header .home-link {
-    width: 100%;
-  }
-
-  .header .nav {
-    display: none;
-  }
-}
-
-@media all and (max-width: 420px) {
-
-  .header h1 {
-    font-size: 20px;
-  }
-}
-
 
 /* ==================================================================
   FOOTER
