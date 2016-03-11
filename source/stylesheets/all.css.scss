@@ -769,27 +769,25 @@ iframe {
   }
 }
 
+#last {
+  margin-bottom: 80px;
+}
+
 .gallery-box {
   display: inline-block;
   height: 280px;
   width: 280px;
   margin: 10px;
+  margin-top: 30px;
   float: left;
   background-repeat: no-repeat;
   text-align: center;
   background-size: 280px 280px;
   h3 {
-    font-size: 40px;
-    line-height: 280px;
-    vertical-align: middle;
-    margin: 0;
-    visibility: hidden;
-    color: $logo-red;
-  }
-  :hover {
-    h3 {
-      visibility: visible;
-    }
+    margin-top: 290px;
+    color: black;
+    font-family: 'Noto Sans', serif;
+    font-size: 18px;
   }
 }
 
@@ -798,11 +796,6 @@ iframe {
   padding: 50px 0;
   margin: 0 auto;
   height: 400px;
-}
-
-#civil-project-one-img {
-  display: inline-block;
-  float: left;
 }
 
 .project-description {
