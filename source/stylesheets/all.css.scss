@@ -750,10 +750,6 @@ iframe {
   font-family: 'Oswald', serif;
 }
 
-.project-title {
-  color: $logo-red;
-}
-
 #hidden-title {
   visibility: hidden;
 }
@@ -783,10 +779,13 @@ iframe {
 
 
 
-
 /* ==================================================================
-  PROJECTS - SUB-PROJECT
+  PROJECTS - SUB-PROJECT GALLERY
 ================================================================== */
+
+.project-title {
+  color: $logo-red;
+}
 
 .gallery {
   display: block;
@@ -818,6 +817,43 @@ iframe {
     font-size: 18px;
   }
 }
+
+@media all and (max-width: 600px) {
+
+  .project-title {
+    font-size: 14vw;
+  }
+
+  .gallery {
+    width: 100%;
+  }
+
+  .gallery-box {
+    display: block;
+    width: 95%;
+    background-size: 100%;
+  }
+
+  .power-4 {
+    height: 220px;
+    h3 {
+      margin-top: 220px;
+    }
+  }
+}
+
+@media all and (max-width: 650px) {
+
+  #commercial-title {
+    font-size: 10.5vw;
+  }
+
+}
+
+
+/* ==================================================================
+  PROJECTS - INDIVIDUAL PROJECT PAGE
+================================================================== */
 
 .project-wrapper {
   display: block;
