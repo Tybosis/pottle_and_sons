@@ -886,6 +886,40 @@ iframe {
   }
 }
 
+@media all and (max-width: 1135px) {
+
+  .produk-details-left {
+    width: 50%!important;
+    margin: 0 auto!important;
+    float: none!important;
+    li {
+      img {
+        width: 100%!important;
+        height: auto!important;
+      }
+    }
+  }
+
+  .project-description {
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 25%;
+
+  }
+
+}
+
+@media all and (max-width: 800px) {
+  .produk-details-left {
+    width: 100%!important;
+  }
+
+  .project-description {
+    width: 80%;
+    padding-left: 10%;
+  }
+}
+
 
 
 /* ==================================================================
