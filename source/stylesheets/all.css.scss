@@ -372,7 +372,56 @@ iframe {
   }
 }
 
+@media all and (max-width: 950px) {
 
+  iframe {
+    width: 100%!important;
+    height: auto!important;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .address-row {
+    width: 100%;
+  }
+
+  .address-text {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 5%;
+    .address {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .hours {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+      span {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 800px) {
+  .hours {
+    width: 90%!important;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .hours {
+    width: 100%;
+    h3 {
+      font-size: 9vw;
+    }
+  }
+}
 
 /* ==================================================================
   ABOUT
