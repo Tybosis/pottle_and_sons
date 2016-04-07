@@ -713,7 +713,7 @@ iframe {
 ================================================================== */
 
 .about-jumbo#people {
-  background-image: url("https://download.unsplash.com/photo-1433959352364-9314c5b6eb0b");
+  background-image: url("../images/jumbotrons/unsplash.jpg");
   background-size: 100% auto;
   border-bottom: none;
   .title {
@@ -888,7 +888,7 @@ iframe {
   }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 700px) {
 
   .about-jumbo#people {
     visibility: hidden;
@@ -908,6 +908,12 @@ iframe {
   }
 }
 
+@media all and (max-width: 1020px) {
+  .about-jumbo#people {
+    background-attachment: scroll;
+    background-size: 100% 100%;
+  }
+}
 /* ==================================================================
   PROJECTS
 ================================================================== */
