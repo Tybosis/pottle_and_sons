@@ -734,6 +734,7 @@ iframe {
 
 .people-pic-left {
   display: inline-block;
+  display: none; /* hiding pic for now */
   float: left;
   width: 300px;
   height: auto;
@@ -743,6 +744,7 @@ iframe {
 .people-pic-right {
   float: right;
   display: inline-block;
+  display: none; /* hiding pic for now */
   width: 300px;
   height: auto;
 }
@@ -758,9 +760,10 @@ iframe {
   display: inline-block;
   color: white;
   float: left;
-  padding-left: 50px;
+  // padding-left: 50px;
   width: 70%;
   font-family: 'Noro Sans', serif;
+  width: 100%; /* temporary with no pic */
   h1 {
     line-height: .8;
     margin-top: 0;
@@ -798,8 +801,9 @@ iframe {
   float: left;
   display: inline-block;
   width: 70%;
-  padding-right: 50px;
+  // padding-right: 50px;
   font-family: 'Noro Sans', serif;
+  width: 100%;
   h1 {
     line-height: .8;
     margin-top: 0;
@@ -829,15 +833,21 @@ iframe {
 
 @media all and (max-width: 1170px) {
   .people-text-left {
-    width: 50%
+    width: 50%;
+    float: none!important;
+    width: 90%!important;
+    margin: 0 5%!important;
   }
 
   .people-text-right {
     width: 50%;
+    float: none!important;
+    width: 90%!important;
+    margin: 0 5%!important;
   }
 
   .pic-left {
-    height: 400px;
+    height: 350px;
   }
 
   .pic-right {
