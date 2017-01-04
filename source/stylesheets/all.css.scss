@@ -752,6 +752,7 @@ iframe {
 .pic-left {
   display: block;
   padding-top: 30px;
+  padding-bottom: 50px;
   height: 300px;
   margin-bottom: 0;
 }
@@ -769,6 +770,9 @@ iframe {
     margin-top: 0;
     font-family: "Roboto Slab", serif;
     font-size: 40px;
+  }
+  p {
+    font-size: 18px;
   }
   ul {
     list-style: none;
@@ -795,6 +799,7 @@ iframe {
   display: block;
   height: 300px;
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .people-text-right {
@@ -809,6 +814,9 @@ iframe {
     margin-top: 0;
     font-family: "Roboto Slab", serif;
     font-size: 40px;
+  }
+  p {
+    font-size: 18px;
   }
   ul {
     list-style: none;
@@ -923,6 +931,16 @@ iframe {
   .about-jumbo#people {
     background-attachment: scroll;
     background-size: 100% 100%;
+  }
+}
+
+@media all and (max-width: 820px) and (min-width: 700px) {
+  .pic-left {
+    height: 400px;
+  }
+
+  .pic-right {
+    height: 400px;
   }
 }
 /* ==================================================================
