@@ -714,7 +714,7 @@ iframe {
 ================================================================== */
 
 .about-jumbo#people {
-  background-image: url("../images/jumbotrons/shop-jumbo.png");
+  background-image: url("../images/jumbotrons/shop-jumbo-1.png");
   background-size: 100% auto;
   border-bottom: none;
   .title {
@@ -802,6 +802,10 @@ iframe {
   padding-bottom: 50px;
 }
 
+#wade-div {
+  height: 360px;
+}
+
 .people-text-right {
   float: left;
   display: inline-block;
@@ -863,6 +867,12 @@ iframe {
   }
 }
 
+@media all and (max-width: 860px) {
+  #wade-div {
+    height: 440px;
+  }
+}
+
 @media all and (max-width: 700px) {
   .people-pic-left {
     float: none!important;
@@ -905,6 +915,28 @@ iframe {
     width: 100%;
     height: auto;
   }
+
+  #wade-div {
+    height: 500px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  #wade-div {
+    height: 650px;
+  }
+}
+
+@media all and (max-width: 460px) {
+  #wade-div {
+    height: 700px;
+  }
+}
+
+@media all and (max-width: 380px) {
+  #wade-div {
+    height: 800px;
+  }
 }
 
 @media all and (max-width: 700px) {
@@ -923,7 +955,7 @@ iframe {
     font-size: 80px;
     line-height: 0;
     font-family: 'Oswald', serif;
-    padding: 80px 0;
+    padding: 120px 0 80px 0;
   }
 }
 
